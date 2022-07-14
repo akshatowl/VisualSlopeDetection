@@ -10,6 +10,13 @@ In order to run the scripts, you need all the dependencies for the Intel RealSen
 sudo apt install pip
 pip install realsense2
 pip install opencv-python
+```
+
+The filtering implementation and array requires Scipy and Numpy, they should be installed in your local machine 
+
+```
+pip install numpy
+pip install scipy
 
 ```
 
