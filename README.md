@@ -40,7 +40,7 @@ This can be achieved with just 2 pixel points as well, however using multiple po
 
 ### Filtering
 
-To make the data more accurate and less susceptible towards any noise, a simple 3 point moving average filter is used.
+To make the data more accurate and less susceptible towards any noise, a simple 3 point moving average filter is used. A basic mean or low pass filter can be explored as well.
 
 
 
