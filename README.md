@@ -56,7 +56,7 @@ Angled camera ( ~ 20 degree inclination)
 
 ### Geometric Approach
 
-This approach dedicated an area and an array of pixel values all a fixed distance apart. Any object detected within this range of pixels will return 4 distances from these pixels
+This approach dedicates an area and an array of pixel values all a fixed distance apart. Any object detected within this range of pixels will return 4 distances from these pixels
 
 ![depthcam1 (1)](https://user-images.githubusercontent.com/58850654/179021620-496e70e2-c66d-405c-b454-0a21960259be.png)
 
