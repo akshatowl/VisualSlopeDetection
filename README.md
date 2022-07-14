@@ -1,6 +1,6 @@
 # VisualSlopeDetection
 
-This repository uses the backend openCV processing file from PySource which can be downloaded from: https://pysource.com/2021/03/11/distance-detection-with-depth-camera-intel-realsense-d435i/
+This repository uses the backend OpenCV processing file from PySource which can be downloaded from: https://pysource.com/2021/03/11/distance-detection-with-depth-camera-intel-realsense-d435i/
 
 It is also included within ~/python_scripts
 
@@ -20,6 +20,25 @@ Update and upgrade packages
 sudo apt update
 sudo apt upgrade
 ```
+
+## Running the script
+
+The main file that runs the logic for slope detection is depthcam_distance.py
+
+Make the python file an executable:
+
+```
+chmod +x depthcam_slope.py
+chmod +x realsense_depth.py
+```
+Run depthcam_slope.py
+
+```
+./depthcam_distance.py
+```
+
+Expected output: 
+colour frame is just for reference an can be disabled, all depth measurements are from the depth frame
 
 
 ## Approach for slope detection
