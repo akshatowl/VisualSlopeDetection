@@ -22,9 +22,9 @@ sudo apt upgrade
 ```
 
 
-##Approach for slope detection
+## Approach for slope detection
 
-###Geometric Approach
+### Geometric Approach
 
 
 
