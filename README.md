@@ -4,6 +4,8 @@ This repository uses the backend OpenCV processing file from PySource which can 
 
 It is also included within ~/python_scripts
 
+## Prerequisites
+
 In order to run the scripts, you need all the dependencies for the Intel RealSense depth cameras
 
 ```
