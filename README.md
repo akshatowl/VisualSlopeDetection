@@ -39,6 +39,7 @@ Run depthcam_slope.py
 
 ## Expected output
 colour frame is just for reference an can be disabled, all depth measurements are from the depth frame.
+Angled camera ( ~ 20 degree inclination)
 
 ![Screenshot from 2022-07-14 14-58-13](https://user-images.githubusercontent.com/58850654/179061995-10b485b3-ebe7-4ae1-951f-8362853066aa.png)
 
