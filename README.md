@@ -26,5 +26,20 @@ sudo apt upgrade
 
 ### Geometric Approach
 
+This approach dedicated an area and an array of pixel values all a fixed distance apart. Any object detected within this range of pixels will return 4 distances from these pixels
+
+θ is considered to be the angle that is calculated from slopes from distances 
+Φ is the actual slope of the obstacle
+
+to calculate angle θ, 3 slopes are calculated which are distance from all the point with reference to one point. The arc tangent of the slopes will give that value of θ.
+
+This can be achieved with just 2 pixel points as well, however using multiple points and averaging slopes results in a more accurate output. It also accounts for the fact if a particular pixel point has a dead-zone due to scratch, relying on those pixels won't yeild in accurate measurements.
+
+
+### Filtering
+
+To make the data more accurate and less susceptible towards any noise, a simple 3 point moving average filter is used.
+
+
 
 
