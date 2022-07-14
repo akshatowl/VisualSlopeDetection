@@ -60,9 +60,9 @@ while True:
     
 
     if slope_mean<90:
-        print("slope in degrees:",90-slope_mean)
+        print(90-slope_mean)
     else:    
-        print("slope in degrees:",90+slope_mean) #180-(90-slope_mean)
+        print(90+slope_mean) #180-(90-slope_mean)
 
     #Display coloured and depth frame
     cv2.imshow("Depth Frame", depth_frame)
