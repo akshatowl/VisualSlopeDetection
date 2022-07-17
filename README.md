@@ -6,7 +6,7 @@ It is also included within ~/python_scripts
 
 ## Prerequisites
 
-In order to run the scripts, you need all the dependencies for the Intel RealSense depth cameras
+In order to run the scripts, you need all the dependencies for the Intel RealSense depth cameras. They can be easily installed using pip.
 
 ```
 sudo apt install pip
@@ -25,7 +25,6 @@ pip install scipy
 Update and upgrade packages
 
 ```
-
 sudo apt update
 sudo apt upgrade
 ```
@@ -37,6 +36,7 @@ The main file that runs the logic for slope detection is depthcam_distance.py
 Make the python file an executable:
 
 ```
+cd ~/VisualSlopeDetection/python_scripts
 chmod +x depthcam_slope.py
 chmod +x realsense_depth.py
 ```
