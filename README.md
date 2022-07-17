@@ -29,6 +29,11 @@ sudo apt update
 sudo apt upgrade
 ```
 
+Clone this repository to your local machine
+
+```
+git clone https://github.com/akshatowl/VisualSlopeDetection.git
+```
 ## Running the script
 
 The main file that runs the logic for slope detection is depthcam_distance.py
