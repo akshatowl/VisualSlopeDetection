@@ -7,7 +7,7 @@
       },
       "includePath": [
         "/opt/ros/noetic/include/**",
-        "/home/akshat/IntelRealsense_SlopeDetection/src/image_subscriber/include/**",
+        "/home/akshat/IntelRealsense_SlopeDetection/src/image_pkg/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",

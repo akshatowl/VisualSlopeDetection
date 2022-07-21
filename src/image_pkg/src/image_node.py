@@ -18,7 +18,7 @@ class image_node:
     def _init_(self):
         self.image_publish=rospy.Publisher("camera/realsense2_camera_manager",Image,queue_size=10)
         self.bridge=CvBridge()
-        self.image_subscriber=rospy.Subscriber("camera/depth/image_rect_raw",Image,self.image_callback)
+        self.image_pkg=rospy.Subscriber("camera/depth/image_rect_raw",Image,self.image_callback)
 
     
     def image_callback(self, data):
