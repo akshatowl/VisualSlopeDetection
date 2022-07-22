@@ -10,7 +10,7 @@ which is the topic where the camera publishes the frames to via the Intel Realse
 In order to run the node, you need all the dependencies for the Intel RealSense depth cameras
 
 ```
-sudo apt-get install ros-<your_ros_distro>-realsense2-camera
+sudo apt-get install ros-<your-ros-distro>-realsense2-camera
 sudo apt-get install ros-<your-ros-distro>-realsense2-description
 ```
 
