@@ -12,17 +12,17 @@ In order to run the node, you need all the dependencies for the Intel RealSense 
 ```
 sudo apt-get install ros-<your_ros_distro>-realsense2-camera
 sudo apt-get install ros-<your-ros-distro>-realsense2-description
-
 ```
+
 If aptitute installation does not work, navigate to the official Intel Realsense git repository [here](https://github.com/IntelRealSense/realsense-ros)
 
 
-```
+
 
 Update and upgrade packages
 
-```
 
+```
 sudo apt update
 sudo apt upgrade
 ```
