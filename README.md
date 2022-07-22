@@ -33,6 +33,7 @@ chmod +x slope_node.py
 ```
 Build the catkin workspace using catkin tools
 ```
+~/VisualSlopeDetection
 catkin_make or catkin build
 ```
 
