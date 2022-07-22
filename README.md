@@ -131,14 +131,15 @@ Launch the node with the launch file
 roslaunch image_launcher depthslope.launch
 ```
 
-In order to launch the node with rosrun and without the launch file
+
+In order to run the node with rosrun:
 
 Open a terminal window and run the realsense launch file which starts the camera with the parameters and a roscore instance.
 
 ```
 roslaunch realsense2_camera rs_camera.launch
 ```
-In the second terminal 
+In the second terminal window
 ```
 ~/VisualSlopeDetection
 source devel/setup.zsh
