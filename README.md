@@ -89,7 +89,7 @@ This ros node subcribers to the topic:
 
 which is the topic where the camera publishes the frames to via the Intel Realsense ROS drivers.
 
-In order to run the node, you need all the dependencies for the Intel RealSense depth cameras
+In order to run the node, you need all the ROS dependencies for the Intel RealSense depth cameras
 
 ```
 sudo apt-get install ros-<your-ros-distro>-realsense2-camera
