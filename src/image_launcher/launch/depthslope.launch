@@ -1,0 +1,4 @@
+<launch>
+<node name="slope_node" pkg="image_pkg" type="slope_node.py" output="screen"/> 
+<include file="$(find realsense2_camera)/launch/rs_camera.launch"/>
+</launch>
