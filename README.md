@@ -82,7 +82,7 @@ To make the data more accurate and less susceptible towards any noise, a simple 
 
 # ROS Node based on RosPy
 
-This ros node subcribers to the topic: 
+This ros node subcribes to the topic: 
 ```
 /camera/depth/rect_image_raw
 ```
